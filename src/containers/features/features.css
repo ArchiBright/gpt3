@@ -1,0 +1,34 @@
+.gpt3__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gpt3__features-heading {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.gpt3__features-heading h2 {
+    font-family: var(--font-family);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.gpt3__features-heading p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+/* .gpt3__features-container {
+    flex:1;
+} */

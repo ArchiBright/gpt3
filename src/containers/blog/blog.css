@@ -1,0 +1,23 @@
+.gpt3__blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__blog-container_groupA {
+    display: flex;
+    flex: 60%;
+}
+
+.gpt3__blog-container_groupB {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gpt3__blog-header h2 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
