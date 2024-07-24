@@ -46,6 +46,29 @@
     cursor: pointer;
 }
 
+.gpt3__navbar-sign button {
+    animation: none;
+}
+
+.gpt3__navbar-sign button:hover {
+    animation: hoverAnimation 0.3s forwards;
+  }
+
+  @keyframes hoverAnimation {
+    0% {
+      background-color: #4CAF50;
+      transform: scale(1);
+    }
+    50% {
+      background-color: #45a049;
+      transform: scale(1.1);
+    }
+    100% {
+      background-color: #4CAF50;
+      transform: scale(1);
+    }
+  }
+
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
